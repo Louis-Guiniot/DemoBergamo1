@@ -9,8 +9,5 @@ export class AppComponent {
   title = 'DemoBergamo1';
 
   htmlString = '<div><p>prova</p></div>'
-
-  getVal(){
-    return 2;
-  }
+  linkUrl = 'https://google.it';
 }

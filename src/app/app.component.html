@@ -1,8 +1,19 @@
 <p>{{title}}</p>
 <p [innerHTML]="title"></p>
 <p>title</p>
-<p>The sum of 1 + 1 is not {{1+1+getVal()}}</p>
 
 <!-- con {{.....}} mostro a video qualunque cosa estrapolata -->
 <div>{{htmlString}}</div>
 <div [innerHTML]="htmlString"></div>
+
+<div>
+    <a href='https://google.it'>Link</a>
+</div>
+
+<div>
+    <a [href]='linkUrl'></a>
+</div>
+
+<div>
+    <a href="{{linkUrl}}"></a>
+</div>
